@@ -14,10 +14,10 @@ void determinarMedia(){
     for(int i = 0; num >= 0; i++){
         cout << "Dime un #: ";
         cin >> num;
-        suma += num;
-        cant++;
         if (num<0){
             break;
+        suma += num;
+        cant++;
         }
     }
     float media = suma / cant;
