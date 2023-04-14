@@ -16,9 +16,9 @@ void determinarMedia(){
         cin >> num;
         if (num<0){
             break;
+        }
         suma += num;
         cant++;
-        }
     }
     float media = suma / cant;
     cout << "La media es: " << media << endl;
